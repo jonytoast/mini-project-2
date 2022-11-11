@@ -1,0 +1,53 @@
+:root {
+    --background-color: #333940;
+    --heading-color:  #E867ED;
+    --text-color: #fff;
+}
+
+body {
+    background: var(--background-color);
+}
+
+/* Header section */
+
+header {
+    text-align: center;
+}
+
+header p {
+    color: var(--text-color);
+}
+
+h1 {
+    color: var(--heading-color);
+}
+
+
+
+/* Box section */
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-warp: wrap;
+}
+
+.card {
+    
+}
+
+.card h2 {
+    color: var(--heading-color);
+    
+}
+
+.card p {
+    color: var(--text-color);
+}
+
+/* footer */
+footer {
+    text-align: center;
+    color: var(--heading-color)
+}
+
